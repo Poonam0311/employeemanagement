@@ -1,4 +1,4 @@
-# CRUD APIS for employeemanagement 
+# CRUD APIS for employeemanagement using Node.js/Mysql
 
 1. Clone this repo
 2. To load the dependencies,in this project's folder, run command- npm install
