@@ -1,8 +1,8 @@
-var express = require('express');
+ovar express = require('express');
 var router = express.Router();
 
 
-/* GET users listing. */ 
+/* GET employees listing. */ 
 router.get('/', function(req, res, next) {
 	connection.query('SELECT e.id,p.first_name,p.last_name,e.designation,d.name as department,p.email,p.contact_number,DATE_FORMAT(e.date_of_joining,"%Y-%m-%d") as date_of_joining ,DATE_FORMAT(p.dob,"%Y-%m-%d") as dob from employees e join personal_details p on e.personal_details_id = p.id join departments d on e.department_id = d.id', function (error, results, fields) {
 	  	if(error){
