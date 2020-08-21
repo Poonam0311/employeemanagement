@@ -7,12 +7,17 @@
 5. Test the below APIs
 
 5.a. Fetch all employees
+
   url - http://localhost:4001/api/v1/employees
+  
   method - GET
   
 5.b. Add employee
+
   url - http://localhost:4001/api/v1/employees/add
+  
   method - POST
+  
   body - 
   first_name:Poonam155
   last_name:Thakur
@@ -24,8 +29,11 @@
   dob:1991-03-11
   
 5.c. Edit employee
+
   url - http://localhost:4001/api/v1/employees/edit
+  
   method - POST
+  
   body -
   id:2
   first_name:Poonam155
@@ -37,8 +45,11 @@
   date_of_joining:2019-07-18
   dob:1991-03-11
   
-5.d. http://localhost:4001/api/v1/employees/delete
+5.d. Delete employee
+
   url - http://localhost:4001/api/v1/employees/delete
+  
   method - POST
+  
   body - 
   id:2
